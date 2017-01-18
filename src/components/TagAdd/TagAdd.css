@@ -1,0 +1,16 @@
+.tagAddForm {
+  display: flex;
+  flex-direction: row;
+}
+.tagAddSubButton {
+  padding: 10px 25px;
+  height: 44px;
+  width: 116px;
+  cursor: pointer;
+  color: #d5dadf;
+  background-color: #202222;
+  border: none;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 16px;
+}

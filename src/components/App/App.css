@@ -1,0 +1,18 @@
+.app {
+  display: flex;
+  height: 100%;
+}
+
+.app-child {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.app-child:first-child {
+  background: #1a2229;
+  overflow: auto;
+  align-items: flex-start;
+}

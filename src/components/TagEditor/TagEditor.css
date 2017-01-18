@@ -1,0 +1,19 @@
+.tag-editor {
+  width: 100%;
+  background: #FAFAFA;
+  border: 1px solid #D5DADF;
+  margin: 100px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #d5dadf;
+  font-size: 12px;
+}
+.tag-editor-title {
+  margin: 0 0 10px 0;
+  font-weight: 600;
+  color: #202222;
+}
+.warningTag {
+  margin-bottom: 5px;
+  color: #B33A3A;
+}
