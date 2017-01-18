@@ -1,3 +1,7 @@
+.tagAddContainer {
+  display: flex;
+  justify-content: center;
+}
 .tagAddForm {
   display: flex;
   flex-direction: row;
