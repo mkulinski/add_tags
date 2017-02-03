@@ -4,7 +4,9 @@ import './TagList.css';
 
 const Tag = ({ tag, index, closeTag }) =>
   <article className="tagContainer">
-    <span className="tagSpan" style={{ backgroundColor: tag.color }}> {tag.label} </span>
+    <span className="tagSpan" style={{ backgroundColor: tag.color }}>
+      {tag.label}
+    </span>
     <span
       className="xTag"
       style={{ backgroundColor: tag.color }}
