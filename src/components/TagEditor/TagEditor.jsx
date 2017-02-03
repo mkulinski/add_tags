@@ -61,7 +61,8 @@ class TagEditor extends Component {
   }
   // removes tag from dropDownTags
   removeDropdownTag(dropdownTagIndex) {
-    const dropDownTags = this.state.dropDownTags.filter((item, index) => index !== dropdownTagIndex);
+    const dropDownTags = this.state.dropDownTags.filter((item, index) =>
+      index !== dropdownTagIndex);
     this.setState({ dropDownTags });
   }
   // functionality behind the add tag button. Allows for tags to be added to TagList
