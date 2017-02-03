@@ -6,7 +6,10 @@ import './TagAdd.css';
 
 const TagAdd = (props) =>
   <div className="tagAddContainer">
-    <form onSubmit={(e) => props.addTag(e, props.currText)} className="tagAddForm">
+    <form
+      onSubmit={(e) => props.addTag(e, props.currText)}
+      className="tagAddForm"
+    >
       <DropdownContainer
         hideDropDown={props.hideDropDown}
         showDropdown={props.showDropdown}
